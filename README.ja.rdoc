@@ -1,0 +1,45 @@
+= Redmine TestLink Link プラグイン
+
+Redmine (バグ管理システム) から TestLink (テスト管理システム) への連携機能を提供する
+Redmine プラグインです。
+Wiki マクロを使って、 TestLink のテストケース、テストプロジェクトなどへの
+リンクを張ることができるようになります。
+
+
+== 特徴
+
+* Wiki マクロを使用し、 Wiki 記法が使用できるところではどこからでも TestLink にリンクが出来ます。
+* テストケースだけではなく、プロジェクト、テスト計画などにもリンクできます。
+* プラグインの設定画面で TestLink のサーバーのアドレスを変更することが出来ます。
+
+
+== プラグインパッケージの取得
+
+プラグインパッケージは以下から取得してください。
+* {SourceForge.JP}[http://sourceforge.jp/projects/rp-testlinklink/releases/]
+
+
+== インストールと設定
+
+1. 取得した圧縮ファイルを (インストールディレクトリ)/vender/plugins に展開します。
+2. Redmine の WEB サーバ(Apache など)を再起動します。
+3. トップメニューの [管理] メニューから [プラグイン] を選択し、
+    Redmine TestLink Link Plugin の [設定] を選択します。
+4. 設定画面の TestLink サーバアドレスを変更します。(デフォルト : http://localhost/testlink)
+5. TestLink のバージョンを設定します。("1.8" or "1.7")
+
+
+== 使用法
+
+使用法は以下をご覧ください。
+* http://www.r-labs.org/projects/rp-testlinklink/wiki/PluginUsage
+
+
+
+== 質問、バグ報告など
+
+不具合報告や要望などありましたら、以下で Defect や Proposal のチケットを発行して下さい。
+http://www.r-labs.org/projects/rp-testlinklink/issues
+
+質問などは以下のフォーラムに記述して下さい。要望などをこちらに書いてもらってもかまいません。
+http://www.r-labs.org/projects/rp-testlinklink/boards
